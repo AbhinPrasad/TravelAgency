@@ -1,0 +1,13 @@
+.home {
+	position: absolute;
+	height: 848px;
+	left: 0%;
+	right: 0%;
+	top: 0px;
+
+	background: linear-gradient(
+		180deg,
+		#e5f8fe 14.25%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}

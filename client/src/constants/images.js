@@ -11,6 +11,8 @@ import plane from "../assets/plane.png";
 import rectangle8 from "../assets/Rectangle 8.png";
 import rectangle9 from "../assets/Rectangle 9.png";
 import compass from "../assets/Vector.png";
+import Logo from "../assets/logo1.png";
+
 
 export default {
 	circle1,
@@ -25,5 +27,6 @@ export default {
 	plane,
 	rectangle8,
 	rectangle9,
-	compass
+	compass,
+	Logo
 };

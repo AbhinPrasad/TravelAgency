@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.nav__container {
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+.nav__logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 175px;
+}
+
+.nav__logo-img {
+	width: 99.35px;
+	height: 56px;
+}
+
+.nav__options {
+	display: flex;
+	width: 800px;
+}
+
+.nav__options-items {
+	display: flex;
+	list-style: none;
+	gap: 40px;
+}
+
+.nav-item {
+	display: flex;
+	align-self: center;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.nav-item-dd {
+	display: flex;
+	list-style: none;
+}
+
+.nav__auth {
+	width: 288px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.login-button {
+	height: 54px;
+	width: 80px;
+	background: linear-gradient(
+		180deg,
+		#e5f8fe 14.25%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	border: none;
+	font-family: "Open Sans", sans-serif;
+	color: rgba(5, 100, 153, 0.8);
+	font-size: 15px;
+}
+
+.signup-button {
+	background: rgba(5, 100, 153, 0.8);
+	border-radius: 44px;
+	border: none;
+	height: 54px;
+	width: 123px;
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+}
